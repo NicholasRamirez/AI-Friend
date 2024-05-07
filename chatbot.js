@@ -10,7 +10,7 @@ var selectedPersonality = JSON.parse(localStorage.getItem("selectedPersonality")
 var selectedHobbies = JSON.parse(localStorage.getItem("selectedHobbies"));
 
 let userMessage = null;
-const API_KEY = "sk-proj-ywhmZpx2VEillkD7w66LT3BlbkFJ69fNCmq9fslukcsaApGr"; // API key for OpenAI
+const API_KEY = "API_KEY_GOES_HERE"; // API key for OpenAI
 const inputInitHeight = chatInput.scrollHeight;
 
 // Function to create a new chat message element
