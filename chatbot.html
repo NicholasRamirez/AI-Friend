@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <!-- Title of the webpage -->
+  <title>AI Friend</title>
+  <!-- Link to external CSS file -->
+  <link rel="stylesheet" href="chatbot.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Link to external JavaScript file with 'defer' attribute -->
+  <script src="chatbot.js" defer></script>
+</head>
+<body>
+  <!-- Container for the chatbot -->
+  <div class="chatbot">
+    <header>
+    </header>
+    <!-- Container for chat messages -->
+    <ul class="chatbox">
+      <!-- Individual chat message -->
+      <li class="chat incoming">
+      </li>
+    </ul>
+    <!-- Container for the chat input area -->
+    <div class="chat-input">
+      <textarea placeholder="Enter a message..." spellcheck="false" required style="height: 50px;"></textarea>
+      <span id="send-btn" class="material-symbols-rounded"></span>
+    </div>
+  </div>
+</body>
+</html>

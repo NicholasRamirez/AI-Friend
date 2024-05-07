@@ -1,0 +1,73 @@
+/* Body styles */
+body {
+    font-family: sans-serif; 
+    margin: 0;
+    padding: 0;
+    background-image: url('Images/blue_background.jpeg'); 
+    background-size: cover;
+    color: #fff; 
+    text-align: center; 
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); 
+    overflow: hidden;
+}
+
+/* Header styles */
+header {
+    font-family: sans-serif; 
+    background-color: rgba(43, 43, 43); 
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Heading styles */
+h1 {
+    margin: 0;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+    text-align: center;
+    margin-top: 45px; 
+}
+
+/* Description styles */
+.description {
+    margin-bottom: 20px;
+}
+
+/* Enter button container styles */
+.enter-button {
+    margin-top: 35px; 
+}
+
+/* Enter button link styles */
+.enter-button a {
+    background-color: #00897b; 
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+/* Enter button link hover styles */
+.enter-button a:hover {
+    background-color: #00796b; 
+}
+
+/* Footer styles */
+footer {
+    background-color: rgba(43, 43, 43); 
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+

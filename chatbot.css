@@ -1,0 +1,71 @@
+/* Body styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('Images/chatbot.png');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    position: relative;
+    overflow: hidden;
+}
+
+/* Style for the chatbot container */
+.chatbot {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
+    max-height: 30%; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style for the chat messages container */
+.chatbox {
+    padding: 10px 0;
+    list-style: none;
+    margin: 0;
+}
+
+/* Style for individual chat messages */
+.chatbox li {
+    margin-bottom: 10px;
+}
+
+/* Style for incoming messages */
+.chatbox .chat {
+    display: flex;
+    align-items: flex-start;
+}
+
+/* Style for incoming messages */
+.chatbox .incoming {
+   /* margin-left: 15px; */
+}
+
+/* Style for outgoing messages */
+.chatbox .outgoing {
+    margin-right: auto; 
+    justify-content: flex-end;
+}
+
+/* Style for chat message text */
+.chatbox .chat p {
+    background-color: #3bbdec;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Style for the chat input textarea */
+.chat-input textarea {
+    width: calc(100% - 45px); 
+    margin-right: 5px; 
+    height: 50px; 
+}

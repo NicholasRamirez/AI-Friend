@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <title>AI Friend - Chat Interface</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="personality.css"> 
+</head>
+<body>
+    <!-- Header section -->
+    <header>
+        <h1>AI Friend</h1>
+    </header>
+    <!-- Main content section -->
+    <main id="chat-container">
+        <div class="chat-box" id="chat-box-1">
+            <!-- Chat header -->
+            <div class="chat-header">
+                <h2>Personality</h2>
+            </div>
+            <!-- Chat body -->
+            <div class="chat-body">
+                <p>Choose your AI Friends personality traits.</p>
+                <!-- Checkbox container -->
+                <div class="checkbox-container">
+                    <!-- Labels with checkboxes for personality traits -->
+                    <label for="outgoing"><input type="checkbox" id="outgoing" name="outgoing"> Outgoing</label>
+                    <label for="introverted"><input type="checkbox" id="introverted" name="introverted"> Introverted</label>
+                    <label for="optimistic"><input type="checkbox" id="optimistic" name="optimistic"> Optimistic</label>
+                    <label for="realistic"><input type="checkbox" id="realistic" name="realistic"> Realistic</label>
+                    <label for="humorous"><input type="checkbox" id="humorous" name="humorous"> Humorous</label>
+                    <label for="serious"><input type="checkbox" id="serious" name="serious"> Serious</label>
+                </div>
+            </div>
+            <!-- Chat footer -->
+            <div class="chat-footer">
+                <button class="enter-button" id="nextButton">Next</button>
+            </div>
+        </div>
+    </main>
+    <!-- Footer section -->
+    <footer>
+        <p>&copy; We Love AI Friend </p>
+    </footer>
+    <!-- Link to external JavaScript file -->
+    <script src="personality.js"></script> 
+</body>
+</html>
+
+
