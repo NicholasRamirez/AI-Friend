@@ -4,7 +4,7 @@ This is a chatbot desgined to be your ideal friend.
 
 You are able to customize your friend to your liking, including name, personality, and hobbies.
 
-Here is a video demo demonstrating AI Friend: 
+Here is a video demo demonstrating AI Friend: https://youtu.be/ElqWUQgn4Hc
 
 
 
